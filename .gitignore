@@ -1,0 +1,9 @@
+# Security & Sensitive Files
+/data/access_token.json
+.env
+
+# IDE & OS Files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store

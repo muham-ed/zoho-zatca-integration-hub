@@ -1,0 +1,24 @@
+[
+    {
+        "id": "TICK-901",
+        "client_name": "شركة آفاق السحاب للاتصالات",
+        "severity": "CRITICAL",
+        "category": "ZATCA Clearance Failure",
+        "title": "رفض فاتورة B2B رقم INV-4091 من بوابة فاتورة بسبب خطأ في الـ PIH",
+        "status": "RESOLVED",
+        "created_at": "2026-11-12 21:41:53",
+        "resolved_at": "2026-11-12 22:41:53",
+        "solution": "تم فحص تسلسل الفواتير، وتبين وجود مسودة ملغاة يدوياً، تم تعديل الـ Previous Invoice Hash وإعادة ترحيل الفاتورة بنجاح وحصولها على الختم."
+    },
+    {
+        "id": "TICK-902",
+        "client_name": "مؤسسة الواحة الذكية - دبي",
+        "severity": "HIGH",
+        "category": "Zoho CRM Sync Issue",
+        "title": "عدم مزامنة صفقة مغلقة رابحة (Deal Closed Won) إلى Zoho Books تلقائياً",
+        "status": "IN_PROGRESS",
+        "created_at": "2026-11-13 18:41:53",
+        "resolved_at": null,
+        "solution": "جاري مراجعة سجلات تشغيل Deluge Webhook والتأكد من مطابقة اسم حقل العملة ومعرف العميل."
+    }
+]
